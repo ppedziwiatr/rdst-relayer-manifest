@@ -1,0 +1,33 @@
+{
+  "name": "citreaTestnetMultiFeed",
+  "network": "citreaTestnet",
+  "proxyAdminAddress": "0xfb1267a29c0aa19daae4a483ea895862a69e4aa5",
+  "proxyAdminOwner": "0xB91a0aad3CD967FEC98e667e2e87bA41147055Ad",
+  "adapterContract": {
+    "name": "CitreaTestnetMultiFeedAdapterWithoutRoundsV1",
+    "address": "0x368eE51E47a594fe1E9908b48228748a30BC7ca4"
+  },
+  "priceFeedsContracts": [
+    {
+      "name": "CitreaTestnetPriceFeedBtcWithoutRoundsV1",
+      "address": "0xc555c100DB24dF36D406243642C169CC5A937f09"
+    },
+    {
+      "name": "CitreaTestnetPriceFeedEthWithoutRoundsV1",
+      "address": "0xf0DEbDAE819b354D076b0D162e399BE013A856d3"
+    },
+    {
+      "name": "CitreaTestnetPriceFeedUsdtWithoutRoundsV1",
+      "address": "0x26FB59e5562405F42f55661f790fA1Bd2F410A3d"
+    },
+    {
+      "name": "CitreaTestnetPriceFeedPxethWithoutRoundsV1",
+      "address": "0x65d0F14f7809CdC4f90c3978c753C4671b6B815b"
+    },
+    {
+      "name": "CitreaTestnetPriceFeedSolvbtcWithoutRoundsV1",
+      "address": "0xeC7C6AdcC867E1C22713D14797339750E36538E4"
+    }
+  ],
+  "isIntegrityVerified": true
+}
