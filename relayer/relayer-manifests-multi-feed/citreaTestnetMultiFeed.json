@@ -1,11 +1,14 @@
 {
-  "ch
+  "chain": {
+    "name": "citreaTestnet",
+    "id": 5115
+  },
   "adapterContract": "0x368eE51E47a594fe1E9908b48228748a30BC7ca4",
   "adapterContractType": "multi-feed",
   "dataServiceId": "redstone-primary-prod",
   "updateTriggers": {
     "deviationPercentage": 0.5,
-    "timeSinceLastUpdateInMilliseconds": 86400001
+    "timeSinceLastUpdateInMilliseconds": 86400005
   },
   "priceFeeds": {
     "BTC": {
